@@ -45,12 +45,26 @@ def ua():
     xx=f"Mozilla/5.0 (Linux; Android 14; MI PAD 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.6315.215 Mobile Safari/537.36"
     return xx
 #----------------------------[LOGO]-----------------------------------#
-logo = (f""" _   _          _____ _____ __  __     __   _______  
- | \ | |   /\   |  __ \_   _|  \/  |    \ \ / /  __ \ 
- |  \| |  /  \  | |  | || | | \  / |_____\ V /| |  | |
- | . ` | / /\ \ | |  | || | | |\/| |______> < | |  | |
- | |\  |/ ____ \| |__| || |_| |  | |     / . \| |__| |
- |_| \_/_/    \_\_____/_____|_|  |_|    /_/ \_\_____/ 
+logo = (f"""
+                                                                                    
+                                                                                    
+WWWWWWWW                           WWWWWWWW                 NNNNNNNN        NNNNNNNN
+W::::::W                           W::::::W                 N:::::::N       N::::::N
+W::::::W                           W::::::W                 N::::::::N      N::::::N
+W::::::W                           W::::::W                 N:::::::::N     N::::::N
+ W:::::W           WWWWW           W:::::W                  N::::::::::N    N::::::N
+  W:::::W         W:::::W         W:::::W                   N:::::::::::N   N::::::N
+   W:::::W       W:::::::W       W:::::W                    N:::::::N::::N  N::::::N
+    W:::::W     W:::::::::W     W:::::W     --------------- N::::::N N::::N N::::::N
+     W:::::W   W:::::W:::::W   W:::::W      -:::::::::::::- N::::::N  N::::N:::::::N
+      W:::::W W:::::W W:::::W W:::::W       --------------- N::::::N   N:::::::::::N
+       W:::::W:::::W   W:::::W:::::W                        N::::::N    N::::::::::N
+        W:::::::::W     W:::::::::W                         N::::::N     N:::::::::N
+         W:::::::W       W:::::::W                          N::::::N      N::::::::N
+          W:::::W         W:::::W                           N::::::N       N:::::::N
+           W:::W           W:::W                            N::::::N        N::::::N
+            WWW             WWW                             NNNNNNNN         NNNNNNN
+                                                                                    
 \x1b[1;92m═━═━═━═━═━━═━═━══━═━═━═━═━━═━═━══━═━═━══━═━═━═
 \033[1;92m[\033[1;92m\033[1;34m✔\033[1;92m]DEVELOPER      \033[1;91m\033[1;34m: \033[1;92  NADIMXWASU  
 [\033[1;92m\033[1;34m✔\033[1;92m]FACEBOOK       \033[1;91m\033[1;34m: \033[1;92m PARDHAN KIING 
@@ -134,7 +148,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://raw.githubusercontent.com/WASUx/F-1/main/APPROVAL.txt").text
+	r1=requests.get("https://raw.githubusercontent.com/NADIMx/F-1/main/APPROVAL.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
